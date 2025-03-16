@@ -11,6 +11,7 @@ This Streamlit-based web application automates data analysis and machine learnin
 ├── data_cleaning.py    # Cleans and preprocesses data
 ├── eda.py              # Performs exploratory data analysis
 ├── ml_model.py         # Trains and evaluates machine learning models
+├── requirements.txt    # Dependencies for the project
 
 🚀 Features
 
@@ -22,6 +23,10 @@ EDA (Exploratory Data Analysis): View dataset overview, correlation matrix, hist
 
 Machine Learning: Supports classification and regression models with hyperparameter tuning.
 
+Model Evaluation: Provides accuracy, confusion matrix, MSE, and R² scores.
+
+Feature Importance: Displays key features influencing model predictions.
+
 Interactive UI: Uses Streamlit for easy navigation and real-time feedback.
 
 
@@ -31,7 +36,7 @@ Interactive UI: Uses Streamlit for easy navigation and real-time feedback.
 
 Ensure you have Python installed, then run:
 
-pip install streamlit pandas numpy seaborn matplotlib plotly scikit-learn
+pip install -r requirements.txt
 
 2️⃣ Run the App
 
@@ -74,7 +79,6 @@ Add support for deep learning models.
 Implement automatic feature engineering.
 
 Provide downloadable model files after training.
-
 
 
 
